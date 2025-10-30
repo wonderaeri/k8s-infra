@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: alicechang/nodeapp-git:1.0.1  #dockhub(image repo)
+        image: alicechang/nodeapp-git:1.0.1  # {"$imagepolicy": "flux-system:nodeapp-git-policy"}
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
