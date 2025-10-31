@@ -1,3 +1,4 @@
 kustomize:
   images:
-  - alicechang/nodeapp-git:1.2.0
+  - alicechang/nodeapp-git:1.1.0
+  - 242337484181.dkr.ecr.ap-northeast-2.amazonaws.com/nodeapp03:1.0.0
